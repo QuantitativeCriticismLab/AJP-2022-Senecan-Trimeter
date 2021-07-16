@@ -33,7 +33,7 @@ The first table shows how resolutions are distributed across the six feet of iam
 |Troades|0.33|0.18|0.17|0.05|0.27|0.0|
 
 
-The following table presents the same kind of information about elision rates. Note that elisions are distributed almost uniformely in *Hiempsal*, a fact that might explain the high elision rate in this play. (see next figure)
+The following table presents the same kind of information about elision rates. Note that elisions are distributed almost uniformly in *Hiempsal*, a fact that might explain the high elision rate in this play. (see next figure)
 
 | Play       | 1st foot | 2nd foot | 3rd foot | 4th foot | 5th foot | 6th foot |
 | :--------- | :----    | :----    | :----    | :----    | :----    | :----    |
