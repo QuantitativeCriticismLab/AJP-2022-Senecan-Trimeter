@@ -69,7 +69,7 @@ The script processes the information found in the [scansion files](#). The scans
 Note that the Neo-Latin texts require special treatment when scanned with **anceps**: when scanning Correr or Dati, replace the `trimeter` argument with `trimeterCORRER` or `trimeterDATI` respectively; when scanning Loschi, use the `--no_diphthongs` flag to account for his orthography and use the specially constructed MqDqMacronsNoDiphthongs.json dictionary instead of the regular MqDqMacrons.json.
 
 ## Acknowledgments
-TK
+A.F. thanks Robert Cioffi for supporting this project from its very inception and providing invaluable feedback on numerous early drafts, and James Romm for helping to put the text into the broader perspective of Senecan scholarship. This work was conducted under the auspices of the Quantitative Criticism Lab (https://qcrit.org), an interdisciplinary group co-directed by P.C. and J.P.D. and supported by an American Council of Learned Societies Digital Extension Grant and a National Endowment for the Humanities Digital Humanities Advancement Grant (grant number HAA271822-20). P.C. was supported by a New Directions Fellowship from the Andrew W. Mellon Foundation, and J.P.D. by a Neukom Fellowship and a Harvard Data Science Fellowship.
 
 ## Citation
 TK
