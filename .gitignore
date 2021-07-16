@@ -139,3 +139,8 @@ cython_debug/
 
 # OSX
 .DS_Store
+
+# Project Specific
+reports/report.md
+reports/figures/antilabe.png
+reports/figures/elision.png
