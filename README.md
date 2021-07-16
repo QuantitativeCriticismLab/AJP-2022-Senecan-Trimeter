@@ -1,6 +1,6 @@
 # Senecan Trimeter and Humanist Tragedy
 
-This repository includes the data and code relevant to the article Fedchin, Burns, Chaudhuri, and Dexter 202X "Senecan Trimeter and Humanist Tragedy" in *American Journal of Philology* TK. The repository contains the scansions of all trimeter passages from Albertino Mussato's *Ecerinis*, Antonio Loschi's *Achilles*, Gregorio Correr's *Procne*, Leonardo Dati's *Hiempsal*, and the ten plays comprising the Senecan corpus. This data is introduced and discussed at length in [...] by [...] The results presented here are fully [reproducible](#how-to-reproduce-this).
+This repository includes the data and code relevant to the article Fedchin, Burns, Chaudhuri, and Dexter 202X "Senecan Trimeter and Humanist Tragedy" in *American Journal of Philology* TK. The repository contains the scansions of all trimeter passages from Albertino Mussato's *Ecerinis*, Antonio Loschi's *Achilles*, Gregorio Correr's *Procne*, Leonardo Dati's *Hiempsal*, and the ten plays comprising the Senecan corpus. The results presented here are fully [reproducible](#how-to-reproduce-this).
 
 ## Abstract
 
@@ -63,8 +63,8 @@ The final figure shows that resolution is on average more common in *antilabe* t
 
 ## How to reproduce this
 
-This report can be generated automatically by running `make_report.py`.
-The script processes the information found in the [scansion files](https://github.com/Dargones/trimeterData/tree/main/data/fullScansions). The scansions can in turn be obtained by running [anceps](https://github.com/Dargones/anceps) on the [raw text](https://github.com/Dargones/trimeterData/tree/main/data/texts) while also  supplying the manually created scansions stored [here](https://github.com/Dargones/trimeterData/tree/main/data/manualScansions)
+This report can be generated automatically by running ```python3 reports/make_report.py```.
+The script processes the information found in the [scansion files](#). The scansions can in turn be obtained by running [anceps](https://github.com/Dargones/anceps) on raw text while also supplying the manually created scansions stored [here](#)
 
 Note that the Neo-Latin texts require special treatment when scanned with **anceps**: when scanning Correr or Dati, replace the `trimeter` argument with `trimeterCORRER` or `trimeterDATI` respectively; when scanning Loschi, use the `--no_diphthongs` flag to account for his orthography and use the specially constructed MqDqMacronsNoDiphthongs.json dictionary instead of the regular MqDqMacrons.json.
 
