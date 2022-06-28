@@ -61,6 +61,8 @@ The final figure shows that resolution is on average more common in *antilabe* t
 
 ![Resolution](figures/antilabe.png)
 
+Please see the [linked code snippet](https://gist.github.com/Dargones/62e58dd3929de66be886b35ca20bba0f) for the method we use to compute the probability of encountering streaks of lines without resolution.
+
 ## How to reproduce this
 
 This report can be generated automatically by running ```python3 reports/make_report.py```.
